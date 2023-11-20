@@ -14,22 +14,42 @@ class _AccountPageState extends State<AccountPage> {
       appBar: AppBar(
         title: Text('Account Page'),
       ),
-      body: Center(
+      body: Padding(
+        padding: const EdgeInsets.all(16.0),
         child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
+          crossAxisAlignment: CrossAxisAlignment.start,
           children: <Widget>[
-            Text('This is Account page'),
+            Center(
+              child: Icon(
+                Icons.person,
+                size: 100.0,
+                color: Colors.blue,
+              ),
+            ),
             SizedBox(height: 20),
-            Text('User Name: John Doe'),
-            SizedBox(height: 20),
-            Text('Email: johndoe@example.com'),
-            SizedBox(height: 20),
-            Text('Phone: +1234567890'),
-            SizedBox(height: 20),
-            Text('Address: 123, ABC Street, XYZ City'),
+            Text(
+              'User Name: Shakhbozjon',
+              style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
+            ),
+            SizedBox(height: 10),
+            Text(
+              'Email: 2110127@newuu.uz',
+              style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
+            ),
+            SizedBox(height: 10),
+            Text(
+              'Phone: +6969696969',
+              style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
+            ),
+            SizedBox(height: 10),
+            Text(
+              'Address: 123, Palonchi Street, Pismadonchi City',
+              style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
+            ),
           ],
         ),
       ),
     );
   }
 }
+
