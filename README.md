@@ -1,16 +1,13 @@
-# hw3
+# Homework #3
 
-A new Flutter project.
+Navigation in pages
 
-## Getting Started
+## How my code works?
 
-This project is a starting point for a Flutter application.
+My Application consists of five pages, which can be navigated through bottom 
+navigation bar. Respectively has five additional .dart files to make sure that
+code is organized.
+Every .dart file consists of widgets of their own and the project also have main.dart
+file in which code is written to properly work with navigation bar widget and pages.
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
